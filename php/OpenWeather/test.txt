@@ -1,0 +1,2433 @@
+<pre>array(5) {
+  ["city"]=>
+  array(6) {
+    ["id"]=>
+    int(1850147)
+    ["name"]=>
+    string(5) "Tokyo"
+    ["coord"]=>
+    array(2) {
+      ["lon"]=>
+      float(139.691711)
+      ["lat"]=>
+      float(35.689499)
+    }
+    ["country"]=>
+    string(2) "JP"
+    ["population"]=>
+    int(0)
+    ["sys"]=>
+    array(1) {
+      ["population"]=>
+      int(0)
+    }
+  }
+  ["cod"]=>
+  string(3) "200"
+  ["message"]=>
+  float(0.0351)
+  ["cnt"]=>
+  int(39)
+  ["list"]=>
+  array(39) {
+    [0]=>
+    array(8) {
+      ["dt"]=>
+      int(1469415600)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(29.15)
+        ["temp_min"]=>
+        float(27.09)
+        ["temp_max"]=>
+        float(29.15)
+        ["pressure"]=>
+        float(1026.3)
+        ["sea_level"]=>
+        float(1027.5)
+        ["grnd_level"]=>
+        float(1026.3)
+        ["humidity"]=>
+        int(88)
+        ["temp_kf"]=>
+        float(2.06)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(802)
+          ["main"]=>
+          string(6) "Clouds"
+          ["description"]=>
+          string(16) "scattered clouds"
+          ["icon"]=>
+          string(3) "03d"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(36)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(2.02)
+        ["deg"]=>
+        float(102.506)
+      }
+      ["rain"]=>
+      array(0) {
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "d"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-25 03:00:00"
+    }
+    [1]=>
+    array(8) {
+      ["dt"]=>
+      int(1469426400)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(28.91)
+        ["temp_min"]=>
+        float(27.37)
+        ["temp_max"]=>
+        float(28.91)
+        ["pressure"]=>
+        float(1025.25)
+        ["sea_level"]=>
+        float(1026.45)
+        ["grnd_level"]=>
+        float(1025.25)
+        ["humidity"]=>
+        int(75)
+        ["temp_kf"]=>
+        float(1.55)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(804)
+          ["main"]=>
+          string(6) "Clouds"
+          ["description"]=>
+          string(15) "overcast clouds"
+          ["icon"]=>
+          string(3) "04d"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(92)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(2.17)
+        ["deg"]=>
+        float(134.501)
+      }
+      ["rain"]=>
+      array(0) {
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "d"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-25 06:00:00"
+    }
+    [2]=>
+    array(8) {
+      ["dt"]=>
+      int(1469437200)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(26.38)
+        ["temp_min"]=>
+        float(25.35)
+        ["temp_max"]=>
+        float(26.38)
+        ["pressure"]=>
+        float(1025.33)
+        ["sea_level"]=>
+        float(1026.52)
+        ["grnd_level"]=>
+        float(1025.33)
+        ["humidity"]=>
+        int(74)
+        ["temp_kf"]=>
+        float(1.03)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10d"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(92)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        int(3)
+        ["deg"]=>
+        int(127)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(0.225)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "d"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-25 09:00:00"
+    }
+    [3]=>
+    array(8) {
+      ["dt"]=>
+      int(1469448000)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(23.82)
+        ["temp_min"]=>
+        float(23.3)
+        ["temp_max"]=>
+        float(23.82)
+        ["pressure"]=>
+        float(1026.04)
+        ["sea_level"]=>
+        float(1027.24)
+        ["grnd_level"]=>
+        float(1026.04)
+        ["humidity"]=>
+        int(82)
+        ["temp_kf"]=>
+        float(0.52)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10n"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(100)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(2.66)
+        ["deg"]=>
+        float(158.502)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(1.185)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "n"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-25 12:00:00"
+    }
+    [4]=>
+    array(8) {
+      ["dt"]=>
+      int(1469458800)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(22.25)
+        ["temp_min"]=>
+        float(22.25)
+        ["temp_max"]=>
+        float(22.25)
+        ["pressure"]=>
+        float(1025.46)
+        ["sea_level"]=>
+        float(1026.55)
+        ["grnd_level"]=>
+        float(1025.46)
+        ["humidity"]=>
+        int(92)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10n"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(92)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(2.21)
+        ["deg"]=>
+        float(173.501)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(0.825)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "n"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-25 15:00:00"
+    }
+    [5]=>
+    array(8) {
+      ["dt"]=>
+      int(1469469600)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(21.59)
+        ["temp_min"]=>
+        float(21.59)
+        ["temp_max"]=>
+        float(21.59)
+        ["pressure"]=>
+        float(1024.53)
+        ["sea_level"]=>
+        float(1025.64)
+        ["grnd_level"]=>
+        float(1024.53)
+        ["humidity"]=>
+        int(98)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10n"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(100)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(2.17)
+        ["deg"]=>
+        float(150.001)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(1.38)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "n"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-25 18:00:00"
+    }
+    [6]=>
+    array(8) {
+      ["dt"]=>
+      int(1469480400)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(21.44)
+        ["temp_min"]=>
+        float(21.44)
+        ["temp_max"]=>
+        float(21.44)
+        ["pressure"]=>
+        float(1024.3)
+        ["sea_level"]=>
+        float(1025.45)
+        ["grnd_level"]=>
+        float(1024.3)
+        ["humidity"]=>
+        int(99)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(501)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(13) "moderate rain"
+          ["icon"]=>
+          string(3) "10n"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(100)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(3.51)
+        ["deg"]=>
+        float(153.5)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(3.32)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "n"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-25 21:00:00"
+    }
+    [7]=>
+    array(8) {
+      ["dt"]=>
+      int(1469491200)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(21.89)
+        ["temp_min"]=>
+        float(21.89)
+        ["temp_max"]=>
+        float(21.89)
+        ["pressure"]=>
+        float(1024.11)
+        ["sea_level"]=>
+        float(1025.27)
+        ["grnd_level"]=>
+        float(1024.11)
+        ["humidity"]=>
+        int(100)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10d"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(92)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(4.21)
+        ["deg"]=>
+        float(154.506)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(1.64)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "d"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-26 00:00:00"
+    }
+    [8]=>
+    array(8) {
+      ["dt"]=>
+      int(1469502000)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(23.75)
+        ["temp_min"]=>
+        float(23.75)
+        ["temp_max"]=>
+        float(23.75)
+        ["pressure"]=>
+        float(1023.06)
+        ["sea_level"]=>
+        float(1024.11)
+        ["grnd_level"]=>
+        float(1023.06)
+        ["humidity"]=>
+        int(95)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10d"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(92)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(4.22)
+        ["deg"]=>
+        float(161.002)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(0.075)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "d"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-26 03:00:00"
+    }
+    [9]=>
+    array(8) {
+      ["dt"]=>
+      int(1469512800)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(23.33)
+        ["temp_min"]=>
+        float(23.33)
+        ["temp_max"]=>
+        float(23.33)
+        ["pressure"]=>
+        float(1022.03)
+        ["sea_level"]=>
+        float(1023.17)
+        ["grnd_level"]=>
+        float(1022.03)
+        ["humidity"]=>
+        int(92)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10d"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(92)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(4.77)
+        ["deg"]=>
+        float(177.001)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(0.125)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "d"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-26 06:00:00"
+    }
+    [10]=>
+    array(8) {
+      ["dt"]=>
+      int(1469523600)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(22.63)
+        ["temp_min"]=>
+        float(22.63)
+        ["temp_max"]=>
+        float(22.63)
+        ["pressure"]=>
+        float(1021.68)
+        ["sea_level"]=>
+        float(1022.89)
+        ["grnd_level"]=>
+        float(1021.68)
+        ["humidity"]=>
+        int(92)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10d"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(92)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(4.16)
+        ["deg"]=>
+        float(168.001)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(0.1)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "d"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-26 09:00:00"
+    }
+    [11]=>
+    array(8) {
+      ["dt"]=>
+      int(1469534400)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(21.78)
+        ["temp_min"]=>
+        float(21.78)
+        ["temp_max"]=>
+        float(21.78)
+        ["pressure"]=>
+        float(1022.32)
+        ["sea_level"]=>
+        float(1023.47)
+        ["grnd_level"]=>
+        float(1022.32)
+        ["humidity"]=>
+        int(95)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10n"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(92)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(3.47)
+        ["deg"]=>
+        int(166)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(0.3)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "n"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-26 12:00:00"
+    }
+    [12]=>
+    array(8) {
+      ["dt"]=>
+      int(1469545200)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(21.38)
+        ["temp_min"]=>
+        float(21.38)
+        ["temp_max"]=>
+        float(21.38)
+        ["pressure"]=>
+        float(1022.21)
+        ["sea_level"]=>
+        float(1023.35)
+        ["grnd_level"]=>
+        float(1022.21)
+        ["humidity"]=>
+        int(96)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10n"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(92)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(3.21)
+        ["deg"]=>
+        float(169.504)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(0.52)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "n"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-26 15:00:00"
+    }
+    [13]=>
+    array(8) {
+      ["dt"]=>
+      int(1469556000)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(21.43)
+        ["temp_min"]=>
+        float(21.43)
+        ["temp_max"]=>
+        float(21.43)
+        ["pressure"]=>
+        float(1021.68)
+        ["sea_level"]=>
+        float(1022.87)
+        ["grnd_level"]=>
+        float(1021.68)
+        ["humidity"]=>
+        int(96)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10n"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(92)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(2.85)
+        ["deg"]=>
+        float(171.5)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(0.18)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "n"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-26 18:00:00"
+    }
+    [14]=>
+    array(8) {
+      ["dt"]=>
+      int(1469566800)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(21.62)
+        ["temp_min"]=>
+        float(21.62)
+        ["temp_max"]=>
+        float(21.62)
+        ["pressure"]=>
+        float(1022.1)
+        ["sea_level"]=>
+        float(1023.21)
+        ["grnd_level"]=>
+        float(1022.1)
+        ["humidity"]=>
+        int(97)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10n"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(92)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(2.11)
+        ["deg"]=>
+        float(160.504)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(0.48)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "n"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-26 21:00:00"
+    }
+    [15]=>
+    array(8) {
+      ["dt"]=>
+      int(1469577600)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(22.79)
+        ["temp_min"]=>
+        float(22.79)
+        ["temp_max"]=>
+        float(22.79)
+        ["pressure"]=>
+        float(1022.46)
+        ["sea_level"]=>
+        float(1023.66)
+        ["grnd_level"]=>
+        float(1022.46)
+        ["humidity"]=>
+        int(100)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10d"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(92)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(1.81)
+        ["deg"]=>
+        float(102.503)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(0.58)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "d"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-27 00:00:00"
+    }
+    [16]=>
+    array(8) {
+      ["dt"]=>
+      int(1469588400)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(24.6)
+        ["temp_min"]=>
+        float(24.6)
+        ["temp_max"]=>
+        float(24.6)
+        ["pressure"]=>
+        float(1021.88)
+        ["sea_level"]=>
+        float(1023.03)
+        ["grnd_level"]=>
+        float(1021.88)
+        ["humidity"]=>
+        int(100)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10d"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(92)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(1.41)
+        ["deg"]=>
+        float(115.001)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(0.09)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "d"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-27 03:00:00"
+    }
+    [17]=>
+    array(8) {
+      ["dt"]=>
+      int(1469599200)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(25.43)
+        ["temp_min"]=>
+        float(25.43)
+        ["temp_max"]=>
+        float(25.43)
+        ["pressure"]=>
+        float(1021.35)
+        ["sea_level"]=>
+        float(1022.52)
+        ["grnd_level"]=>
+        float(1021.35)
+        ["humidity"]=>
+        int(95)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10d"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(92)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(2.07)
+        ["deg"]=>
+        float(136.003)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(0.03)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "d"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-27 06:00:00"
+    }
+    [18]=>
+    array(8) {
+      ["dt"]=>
+      int(1469610000)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(24.35)
+        ["temp_min"]=>
+        float(24.35)
+        ["temp_max"]=>
+        float(24.35)
+        ["pressure"]=>
+        float(1021.64)
+        ["sea_level"]=>
+        float(1022.86)
+        ["grnd_level"]=>
+        float(1021.64)
+        ["humidity"]=>
+        int(94)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10d"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(92)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(2.41)
+        ["deg"]=>
+        float(133.501)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(0.38)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "d"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-27 09:00:00"
+    }
+    [19]=>
+    array(8) {
+      ["dt"]=>
+      int(1469620800)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(23.53)
+        ["temp_min"]=>
+        float(23.53)
+        ["temp_max"]=>
+        float(23.53)
+        ["pressure"]=>
+        float(1022.73)
+        ["sea_level"]=>
+        float(1023.94)
+        ["grnd_level"]=>
+        float(1022.73)
+        ["humidity"]=>
+        int(95)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10n"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(92)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(1.72)
+        ["deg"]=>
+        float(136.501)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(0.33)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "n"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-27 12:00:00"
+    }
+    [20]=>
+    array(8) {
+      ["dt"]=>
+      int(1469631600)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(23.24)
+        ["temp_min"]=>
+        float(23.24)
+        ["temp_max"]=>
+        float(23.24)
+        ["pressure"]=>
+        float(1023.01)
+        ["sea_level"]=>
+        float(1024.1)
+        ["grnd_level"]=>
+        float(1023.01)
+        ["humidity"]=>
+        int(97)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10n"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(88)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(1.41)
+        ["deg"]=>
+        float(143.501)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(0.2)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "n"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-27 15:00:00"
+    }
+    [21]=>
+    array(8) {
+      ["dt"]=>
+      int(1469642400)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(23.11)
+        ["temp_min"]=>
+        float(23.11)
+        ["temp_max"]=>
+        float(23.11)
+        ["pressure"]=>
+        float(1022.96)
+        ["sea_level"]=>
+        float(1024.01)
+        ["grnd_level"]=>
+        float(1022.96)
+        ["humidity"]=>
+        int(97)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10n"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(88)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(1.21)
+        ["deg"]=>
+        float(140.502)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(0.19)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "n"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-27 18:00:00"
+    }
+    [22]=>
+    array(8) {
+      ["dt"]=>
+      int(1469653200)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(23.46)
+        ["temp_min"]=>
+        float(23.46)
+        ["temp_max"]=>
+        float(23.46)
+        ["pressure"]=>
+        float(1023.44)
+        ["sea_level"]=>
+        float(1024.55)
+        ["grnd_level"]=>
+        float(1023.44)
+        ["humidity"]=>
+        int(97)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10n"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(92)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(1.63)
+        ["deg"]=>
+        float(136.004)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(0.09)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "n"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-27 21:00:00"
+    }
+    [23]=>
+    array(8) {
+      ["dt"]=>
+      int(1469664000)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(26.32)
+        ["temp_min"]=>
+        float(26.32)
+        ["temp_max"]=>
+        float(26.32)
+        ["pressure"]=>
+        float(1023.88)
+        ["sea_level"]=>
+        float(1025.09)
+        ["grnd_level"]=>
+        float(1023.88)
+        ["humidity"]=>
+        int(98)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10d"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(56)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(2.21)
+        ["deg"]=>
+        float(166.004)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(0.01)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "d"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-28 00:00:00"
+    }
+    [24]=>
+    array(8) {
+      ["dt"]=>
+      int(1469674800)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(28.37)
+        ["temp_min"]=>
+        float(28.37)
+        ["temp_max"]=>
+        float(28.37)
+        ["pressure"]=>
+        float(1023.28)
+        ["sea_level"]=>
+        float(1024.51)
+        ["grnd_level"]=>
+        float(1023.28)
+        ["humidity"]=>
+        int(88)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(804)
+          ["main"]=>
+          string(6) "Clouds"
+          ["description"]=>
+          string(15) "overcast clouds"
+          ["icon"]=>
+          string(3) "04d"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(88)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(2.96)
+        ["deg"]=>
+        float(161.501)
+      }
+      ["rain"]=>
+      array(0) {
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "d"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-28 03:00:00"
+    }
+    [25]=>
+    array(8) {
+      ["dt"]=>
+      int(1469685600)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(28.39)
+        ["temp_min"]=>
+        float(28.39)
+        ["temp_max"]=>
+        float(28.39)
+        ["pressure"]=>
+        float(1022.55)
+        ["sea_level"]=>
+        float(1023.8)
+        ["grnd_level"]=>
+        float(1022.55)
+        ["humidity"]=>
+        int(81)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10d"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(68)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(4.11)
+        ["deg"]=>
+        float(167.507)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(0.23)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "d"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-28 06:00:00"
+    }
+    [26]=>
+    array(8) {
+      ["dt"]=>
+      int(1469696400)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(27.08)
+        ["temp_min"]=>
+        float(27.08)
+        ["temp_max"]=>
+        float(27.08)
+        ["pressure"]=>
+        int(1023)
+        ["sea_level"]=>
+        float(1024.27)
+        ["grnd_level"]=>
+        int(1023)
+        ["humidity"]=>
+        int(80)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10d"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(76)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(3.41)
+        ["deg"]=>
+        float(167.502)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(1.03)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "d"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-28 09:00:00"
+    }
+    [27]=>
+    array(8) {
+      ["dt"]=>
+      int(1469707200)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(24.94)
+        ["temp_min"]=>
+        float(24.94)
+        ["temp_max"]=>
+        float(24.94)
+        ["pressure"]=>
+        float(1024.4)
+        ["sea_level"]=>
+        float(1025.54)
+        ["grnd_level"]=>
+        float(1024.4)
+        ["humidity"]=>
+        int(82)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10n"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(36)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(3.27)
+        ["deg"]=>
+        float(164.002)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(0.3)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "n"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-28 12:00:00"
+    }
+    [28]=>
+    array(8) {
+      ["dt"]=>
+      int(1469718000)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(23.3)
+        ["temp_min"]=>
+        float(23.3)
+        ["temp_max"]=>
+        float(23.3)
+        ["pressure"]=>
+        float(1024.27)
+        ["sea_level"]=>
+        float(1025.44)
+        ["grnd_level"]=>
+        float(1024.27)
+        ["humidity"]=>
+        int(87)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(802)
+          ["main"]=>
+          string(6) "Clouds"
+          ["description"]=>
+          string(16) "scattered clouds"
+          ["icon"]=>
+          string(3) "03n"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(44)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(2.07)
+        ["deg"]=>
+        float(160.003)
+      }
+      ["rain"]=>
+      array(0) {
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "n"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-28 15:00:00"
+    }
+    [29]=>
+    array(8) {
+      ["dt"]=>
+      int(1469728800)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(22.12)
+        ["temp_min"]=>
+        float(22.12)
+        ["temp_max"]=>
+        float(22.12)
+        ["pressure"]=>
+        float(1023.64)
+        ["sea_level"]=>
+        float(1024.73)
+        ["grnd_level"]=>
+        float(1023.64)
+        ["humidity"]=>
+        int(92)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(802)
+          ["main"]=>
+          string(6) "Clouds"
+          ["description"]=>
+          string(16) "scattered clouds"
+          ["icon"]=>
+          string(3) "03n"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(44)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(1.31)
+        ["deg"]=>
+        float(116.507)
+      }
+      ["rain"]=>
+      array(0) {
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "n"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-28 18:00:00"
+    }
+    [30]=>
+    array(8) {
+      ["dt"]=>
+      int(1469739600)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(22.99)
+        ["temp_min"]=>
+        float(22.99)
+        ["temp_max"]=>
+        float(22.99)
+        ["pressure"]=>
+        float(1023.81)
+        ["sea_level"]=>
+        float(1024.93)
+        ["grnd_level"]=>
+        float(1023.81)
+        ["humidity"]=>
+        int(92)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10n"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(36)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(1.52)
+        ["deg"]=>
+        float(93.0008)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(0.01)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "n"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-28 21:00:00"
+    }
+    [31]=>
+    array(8) {
+      ["dt"]=>
+      int(1469750400)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(26.67)
+        ["temp_min"]=>
+        float(26.67)
+        ["temp_max"]=>
+        float(26.67)
+        ["pressure"]=>
+        float(1023.79)
+        ["sea_level"]=>
+        float(1024.88)
+        ["grnd_level"]=>
+        float(1023.79)
+        ["humidity"]=>
+        int(93)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(801)
+          ["main"]=>
+          string(6) "Clouds"
+          ["description"]=>
+          string(10) "few clouds"
+          ["icon"]=>
+          string(3) "02d"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(24)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        int(2)
+        ["deg"]=>
+        float(145.502)
+      }
+      ["rain"]=>
+      array(0) {
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "d"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-29 00:00:00"
+    }
+    [32]=>
+    array(8) {
+      ["dt"]=>
+      int(1469761200)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(28.66)
+        ["temp_min"]=>
+        float(28.66)
+        ["temp_max"]=>
+        float(28.66)
+        ["pressure"]=>
+        float(1022.52)
+        ["sea_level"]=>
+        float(1023.7)
+        ["grnd_level"]=>
+        float(1022.52)
+        ["humidity"]=>
+        int(89)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(802)
+          ["main"]=>
+          string(6) "Clouds"
+          ["description"]=>
+          string(16) "scattered clouds"
+          ["icon"]=>
+          string(3) "03d"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(36)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(1.95)
+        ["deg"]=>
+        float(133.506)
+      }
+      ["rain"]=>
+      array(0) {
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "d"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-29 03:00:00"
+    }
+    [33]=>
+    array(8) {
+      ["dt"]=>
+      int(1469772000)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(28.5)
+        ["temp_min"]=>
+        float(28.5)
+        ["temp_max"]=>
+        float(28.5)
+        ["pressure"]=>
+        float(1021.45)
+        ["sea_level"]=>
+        float(1022.55)
+        ["grnd_level"]=>
+        float(1021.45)
+        ["humidity"]=>
+        int(79)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(803)
+          ["main"]=>
+          string(6) "Clouds"
+          ["description"]=>
+          string(13) "broken clouds"
+          ["icon"]=>
+          string(3) "04d"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(80)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(2.75)
+        ["deg"]=>
+        float(118.5)
+      }
+      ["rain"]=>
+      array(0) {
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "d"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-29 06:00:00"
+    }
+    [34]=>
+    array(8) {
+      ["dt"]=>
+      int(1469782800)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(27.25)
+        ["temp_min"]=>
+        float(27.25)
+        ["temp_max"]=>
+        float(27.25)
+        ["pressure"]=>
+        float(1021.19)
+        ["sea_level"]=>
+        float(1022.41)
+        ["grnd_level"]=>
+        float(1021.19)
+        ["humidity"]=>
+        int(75)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10d"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(88)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(2.9)
+        ["deg"]=>
+        float(117.001)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(0.04)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "d"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-29 09:00:00"
+    }
+    [35]=>
+    array(8) {
+      ["dt"]=>
+      int(1469793600)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(25.96)
+        ["temp_min"]=>
+        float(25.96)
+        ["temp_max"]=>
+        float(25.96)
+        ["pressure"]=>
+        float(1022.14)
+        ["sea_level"]=>
+        float(1023.29)
+        ["grnd_level"]=>
+        float(1022.14)
+        ["humidity"]=>
+        int(75)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10n"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(80)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(2.33)
+        ["deg"]=>
+        float(134.503)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(0.02)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "n"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-29 12:00:00"
+    }
+    [36]=>
+    array(8) {
+      ["dt"]=>
+      int(1469804400)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(24.26)
+        ["temp_min"]=>
+        float(24.26)
+        ["temp_max"]=>
+        float(24.26)
+        ["pressure"]=>
+        float(1021.72)
+        ["sea_level"]=>
+        float(1022.96)
+        ["grnd_level"]=>
+        float(1021.72)
+        ["humidity"]=>
+        int(82)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(500)
+          ["main"]=>
+          string(4) "Rain"
+          ["description"]=>
+          string(10) "light rain"
+          ["icon"]=>
+          string(3) "10n"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(44)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(1.91)
+        ["deg"]=>
+        int(133)
+      }
+      ["rain"]=>
+      array(1) {
+        ["3h"]=>
+        float(0.02)
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "n"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-29 15:00:00"
+    }
+    [37]=>
+    array(8) {
+      ["dt"]=>
+      int(1469815200)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(22.83)
+        ["temp_min"]=>
+        float(22.83)
+        ["temp_max"]=>
+        float(22.83)
+        ["pressure"]=>
+        float(1021.31)
+        ["sea_level"]=>
+        float(1022.48)
+        ["grnd_level"]=>
+        float(1021.31)
+        ["humidity"]=>
+        int(90)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(800)
+          ["main"]=>
+          string(5) "Clear"
+          ["description"]=>
+          string(9) "clear sky"
+          ["icon"]=>
+          string(3) "02n"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(8)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(1.48)
+        ["deg"]=>
+        int(108)
+      }
+      ["rain"]=>
+      array(0) {
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "n"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-29 18:00:00"
+    }
+    [38]=>
+    array(8) {
+      ["dt"]=>
+      int(1469826000)
+      ["main"]=>
+      array(8) {
+        ["temp"]=>
+        float(23.02)
+        ["temp_min"]=>
+        float(23.02)
+        ["temp_max"]=>
+        float(23.02)
+        ["pressure"]=>
+        float(1021.75)
+        ["sea_level"]=>
+        float(1022.85)
+        ["grnd_level"]=>
+        float(1021.75)
+        ["humidity"]=>
+        int(93)
+        ["temp_kf"]=>
+        int(0)
+      }
+      ["weather"]=>
+      array(1) {
+        [0]=>
+        array(4) {
+          ["id"]=>
+          int(802)
+          ["main"]=>
+          string(6) "Clouds"
+          ["description"]=>
+          string(16) "scattered clouds"
+          ["icon"]=>
+          string(3) "03n"
+        }
+      }
+      ["clouds"]=>
+      array(1) {
+        ["all"]=>
+        int(36)
+      }
+      ["wind"]=>
+      array(2) {
+        ["speed"]=>
+        float(1.84)
+        ["deg"]=>
+        float(102.001)
+      }
+      ["rain"]=>
+      array(0) {
+      }
+      ["sys"]=>
+      array(1) {
+        ["pod"]=>
+        string(1) "n"
+      }
+      ["dt_txt"]=>
+      string(19) "2016-07-29 21:00:00"
+    }
+  }
+}
+</pre>
