@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 function get_weather() {
@@ -16,9 +17,21 @@ function get_weather() {
         $weather -> setIcon_url("http://openweathermap.org/img/w/" . $weather_json['list'][0]['weather'][0]['icon'] . ".png");   
 
 
+<<<<<<< HEAD
 
 
         return $weather;
 }
 
+=======
+print get_weather();
+=======
+        $weather = json_decode(file_get_contents($url), true);
+        $icon = "http://openweathermap.org/img/w/" . $weather['weather'][0]['icon'] . ".png";
+
+return sprintf( $weather['weather'][0]['main'], $weather['weather'][0]['description'], $icon, $weather['main']['temp'], $weather['main']['humidity'], $weather['wind']['speed']);
+}
+
+>>>>>>> 61dc600a6515653b2908621a8bbeb623bc171c08
+>>>>>>> 619dd94b78ba6b883e54ba36539298621cf7eb93
  ?>
