@@ -11,12 +11,14 @@ function get_weather() {
         $weather_json = json_decode(file_get_contents($url), true);
         
         $weather = new Weather;
-        $weather -> setWeather($weather_json['list'][0]['weather'][0]['main']);
-        $weather -> setWeather_detail($weather_json['list'][0]['weather'][0]['description']);
-        $weather -> setIcon_url("http://openweathermap.org/img/w/" . $weather_json['list'][0]['weather'][0]['icon'] . ".png");   
-        $weather -> setTimestamp($weather_json['list'][0]['dt_txt']);
+        $weather -> setWeather($weather_json['list'][3]['weather'][0]['main']);
+        $weather -> setWeather_detail($weather_json['list'][3]['weather'][0]['description']);
+        $weather -> setIcon_url("http://openweathermap.org/img/w/" . $weather_json['list'][2]['weather'][0]['icon'] . ".png");   
+        $weather -> setTimestamp($weather_json['list'][3]['dt_txt']);
+        $weather -> setTemp($weather_json['list'][3]['main']['temp']);
 
         
+
 
 
 

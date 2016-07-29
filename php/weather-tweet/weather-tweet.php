@@ -7,8 +7,7 @@
 
         
         $weather = get_Weather();
-        $message = "天気：".$weather->getWeather() ."     天気詳細:". $weather->getWeather_detail()."     日時:". $weather->getTimestamp();
-
+        $message = "天気：".$weather->getWeather() ."     天気詳細:". $weather->getWeather_detail()."     日時:". $weather->getTimestamp()."      気温:". $weather->getTemp();
 
         $imageURL = $weather -> getIcon_url();
 
