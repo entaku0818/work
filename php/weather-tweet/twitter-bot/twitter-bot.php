@@ -1,4 +1,4 @@
-#!/usr/local/bin/php
+
 <?php
     use Abraham\TwitterOAuth\TwitterOAuth;
 
