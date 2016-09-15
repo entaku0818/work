@@ -12,20 +12,22 @@ agent.get('https://aircamp.us/course/result') do |page|
     form.password = 'soccer10'
   end.submit
         
+        #HTML読み込み
         doc = Nokogiri::HTML(mypage.content.toutf8)
-           #doc.xpath("/html/body/div[contains(@id,'container')]/div[contains(@class,'container_box')]/div[contains(@id,'content')]/div[contains(@id,'main')]/div/div[contains(@class,'result-box')]/div/li[contains(@class,'score-result')]/p[contains(@class,'score')]").each do |node|
-  
+        
+        #  
+
+        puts doc.xpath("/html/body/div[contains(@id,'container')]/div[contains(@class,'container_box')]/div[contains(@id,'content')]/div[contains(@id,'main')]/div")
+
+
 
       # 絞り込んでTitle部分を抽出
-	    #title = node.xpath("./div[contains(@class,'item')]/a[contains(@class,'itemContent')]/p[contains(@class,'itemTitle')]/span/text()")      
+	    score = node.xpath("./div[contains(@class,'result-box')]/div/div[contains(@class,'score-result')]/p[contains(@class,'score')]/text()")      
       # 絞り込んで再生数に当たる部分を抽出      
-        #viewCount =  node.xpath("./div[contains(@class,'item')]/a[contains(@class,'itemContent')]/div[contains(@class,'itemData')]/dl[contains(@class,'play')]/dd/text()")
-
-      
-        puts doc
-      # 表示形式に整形
+             
+        puts score 
+        # 表示形式に整形
       puts "\n———————————————–\n"
-    #end # node終わり
 
   
   
