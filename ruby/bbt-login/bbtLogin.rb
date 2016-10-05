@@ -15,20 +15,22 @@ agent.get('https://aircamp.us/course/result') do |page|
         #HTML読み込み
         doc = Nokogiri::HTML(mypage.content.toutf8)
         
-        #  
+        scores = []
 
-        puts doc.xpath("/html/body/div[contains(@id,'container')]/div[contains(@class,'container_box')]/div[contains(@id,'content')]/div[contains(@id,'main')]/div")
+        doc.xpath("/html/body/div[contains(@id,'container')]/div[contains(@class,'container_box')]/div[contains(@id,'content')]/div[contains(@id,'main')]/div/div[contains(@class,'result-box')]/div/div[contains(@class,'score-result')]").each do |node|
 
-
-
-      # 絞り込んでTitle部分を抽出
-	    score = node.xpath("./div[contains(@class,'result-box')]/div/div[contains(@class,'score-result')]/p[contains(@class,'score')]/text()")      
-      # 絞り込んで再生数に当たる部分を抽出      
+      # 絞り込んでTitle部分を抽出:
+                score = node.xpath("./p[contains(@class,'score')]/text()")               
+                course = node.xpath("./h4/a/text()")   
              
-        puts score 
-        # 表示形式に整形
-      puts "\n———————————————–\n"
+        #puts node
+                
+                scores.push([course,score])
+        
 
-  
+
+        
+        # 表示形式に整形
+        end 
   
 end
