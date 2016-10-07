@@ -17,20 +17,50 @@ agent.get('https://aircamp.us/course/result') do |page|
         
         scores = []
 
-        doc.xpath("/html/body/div[contains(@id,'container')]/div[contains(@class,'container_box')]/div[contains(@id,'content')]/div[contains(@id,'main')]/div/div[contains(@class,'result-box')]/div/div[contains(@class,'score-result')]").each do |node|
+                 doc.xpath("/html/body/div[contains(@id,'container')]/div[contains(@class,'container_box')]/div[contains(@id,'content')]/div[contains(@id,'main')]/div/div[contains(@class,'result-box')]/div/div[contains(@class,'score-result')]").each do |node|
 
-      # 絞り込んでTitle部分を抽出:
-                score = node.xpath("./p[contains(@class,'score')]/text()")               
+                # 絞り込んでTitle部分を抽出:
+                 score = node.xpath("./p[contains(@class,'score')]/text()")               
                 course = node.xpath("./h4/a/text()")   
-             
-        #puts node
+                             
+                scores.push([course.to_s,score.to_s])
                 
-                scores.push([course,score])
-        
+                
+                end 
+                
+                score_gpa = 0
+                course_count = 0
+                scores.each do |score|
+                        
+                
+                        if score[1] == ("A+")
+                                score_gpa = score_gpa+4
+                                course_count = course_count + 1
+                        elsif score[1] == ("A")
+                                score_gpa = score_gpa+3
+                                course_count = course_count + 1
+                        elsif score[1] == ("B")
+                                score_gpa = score_gpa+2
+                                course_count = course_count + 1
+                        elsif score[1] == ("C")
+                                score_gpa = score_gpa+1
+                                course_count = course_count + 1
+                        elsif score[1] == ("F")
+                                course_count = course_count + 1
+
+                        end
+                        
+                end
+
+                puts "あなたのGPAは" + (score_gpa.to_f / course_count).to_s
 
 
+                        
+
+
+
+
+                                
         
-        # 表示形式に整形
-        end 
   
 end
