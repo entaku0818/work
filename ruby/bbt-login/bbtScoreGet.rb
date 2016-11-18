@@ -60,8 +60,8 @@ class BbtScraping
 
                 return [scores, (score_gpa.to_f / course_count).to_s]
 
-              end
-    end
+                end
+        end
 
 
 
